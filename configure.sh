@@ -1,3 +1,5 @@
+sudo apt-get install python3-pip
+
 sudo cp -f 20auto-upgrades /etc/apt/apt.conf.d/20auto-upgrades
 sudo cp -f 50unattended-upgrades /etc/apt/apt.conf.d/50unattended-upgrades
 sudo cp -f 99update-notifier /etc/apt/apt.conf.d/99update-notifier
