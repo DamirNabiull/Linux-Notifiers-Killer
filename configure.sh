@@ -14,7 +14,7 @@ sudo systemctl disable apt-daily-upgrade.service
 sudo systemctl stop apt-daily.service
 sudo systemctl disable apt-daily.service
 systemctl list-unit-files | grep apt
-dbus-monitor --session "interface=org.freedesktop.Notifications"
+#dbus-monitor --session "interface=org.freedesktop.Notifications"
 echo update-manager hold | sudo dpkg --set-selections
 cat /etc/xdg/autostart/update-notifier.desktop | grep 'X-GNOME-Autostart-enabled'
 cd ~
